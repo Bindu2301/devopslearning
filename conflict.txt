@@ -1,2 +1,4 @@
 Data in conflict file
 Second line added
+First line of code in conflict file
+
