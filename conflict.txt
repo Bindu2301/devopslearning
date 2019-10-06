@@ -1,1 +1,2 @@
 Data in conflict file
+Second line added
