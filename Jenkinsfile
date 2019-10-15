@@ -33,7 +33,7 @@ node{
    stage('CovergareCheck'){
        try{
            withMaven(maven:'MyMaven'){
-               sh 'mvn cobertura:cobertura'
+               sh 'mvn cobertura:cobertura -Dcobertura.report.format=xml'
            }
        }finally{
             coberturaReportFile: 'target/site/cobertura/coverage.xml'
